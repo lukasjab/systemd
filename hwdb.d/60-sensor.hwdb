@@ -481,9 +481,14 @@ sensor:modalias:acpi:BOSC0200*:dmi:*:svnIRBIS:pnTW118:*
  ACCEL_MOUNT_MATRIX=1, 0, 0; 0, -1, 0; 0, 0, 1
 
 #########################################
-# iOTA 360
+# iOTA
 #########################################
+# iOTA 360
 sensor:modalias:acpi:KIOX000A*:dmi:*svn*iOTA*:*pn*IOTA2210:*
+ ACCEL_MOUNT_MATRIX=0, -1, 0; -1, 0, 0; 0, 0, 1
+
+# iOTA 2110
+sensor:modalias:acpi:SMO8500*:dmi:*:svnIOTA*:pnIOTA2110:*
  ACCEL_MOUNT_MATRIX=0, -1, 0; -1, 0, 0; 0, 0, 1
 
 #########################################
